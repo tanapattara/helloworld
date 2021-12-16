@@ -21,5 +21,11 @@
             textBoxF.Text = f.ToString();
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBoxC.Text = "";
+            textBoxF.Text = "";
+        }
     }
 }
